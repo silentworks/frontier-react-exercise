@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    background-color: #DADFE3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.steps-header {
+    background-color: #F8FAFA;
+    padding-top: 10px;
+}
+
+.steps {
+    display: inline-block;
+    border-bottom: 4px solid #1E54FC;
+    padding-bottom: 10px;
+    /* width: 33.333%; */
+}
+
+.steps span {
+    background-color: #E7EAEC;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0 20px;
+}
+
+.section {
+    padding: 10px;
+    margin: 10px;
+}
+
+.section fieldset {
+    border: none;
+    border-radius: 10px;
+    background-color: #FAFBFB;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-field {
+    margin-top: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input:not([type=checkbox]),
+.form-field textarea,
+.form-field select {
+    background-color: #F2F4F6;
+    border: 1px solid #B8C0C6;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    width: calc(100% - 20px);
+}
+
+.section .btn-action {
+    background: rgb(42,179,89);
+    background: linear-gradient(0deg, rgba(42,179,89,1) 0%, rgba(39,171,85,1) 46%, rgba(50,191,98,1) 100%);
+    border: none;
+    box-shadow: #4b4b4b 0 0 2px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
