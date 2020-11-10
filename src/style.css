@@ -15,7 +15,7 @@ body {
     display: inline-block;
     border-bottom: 4px solid #1E54FC;
     padding-bottom: 10px;
-    /* width: 33.333%; */
+    width: 33.333%;
 }
 
 .steps span {
@@ -23,7 +23,7 @@ body {
     border-radius: 20px;
     display: inline-block;
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px 8px;
     margin: 0 20px;
 }
 
